@@ -1,10 +1,7 @@
 <script lang="ts">
 	import { mousePosition } from "$lib/dom-events-svelte-store";
-	import Child from "./Child.svelte";
 </script>
 
 <div>
-	Mouse Position: {$mousePosition.x}, {$mousePosition.y}
+	[Child] Mouse Position: {$mousePosition.x}, {$mousePosition.y}
 </div>
-
-<Child />
