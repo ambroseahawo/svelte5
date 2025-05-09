@@ -1,5 +1,5 @@
 <script>
-	import App from "../components/store/App.svelte";
+	import App from "../components/valtio/App.svelte";
 </script>
 
 <App />
