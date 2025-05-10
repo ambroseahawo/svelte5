@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { mousePosition } from "$lib/dom-events-svelte-store";
+	import { mousePosition } from "$lib//store/dom-events-svelte-store";
 	import Child from "./Child.svelte";
 </script>
 
