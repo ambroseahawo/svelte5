@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { store, toSvelteStore } from "$lib/valtio-svelte-store";
+	import { store, toSvelteStore } from "$lib/store/valtio-svelte-store";
 
 	const snapshotStore = toSvelteStore(store);
 	const countSnapshotStore = toSvelteStore(store.count);

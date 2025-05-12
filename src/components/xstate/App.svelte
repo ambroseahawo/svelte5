@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { toggleService, toggleStore } from "$lib/xstate-svelte";
+	import { toggleService, toggleStore } from "$lib/store/xstate-svelte";
 
 	$: current = $toggleStore;
 
