@@ -1,5 +1,5 @@
 <script>
-	import App from "../components/dom-events-store/App.svelte";
+	import Derived from "../components/scripts/derived.svelte";
 </script>
 
-<App />
+<Derived />
