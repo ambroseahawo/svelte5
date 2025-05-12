@@ -4,17 +4,15 @@
 	const num = writable(10);
 	const num2 = writable(42);
 
-	// derived from 1 store
+	// derived from 1 store synchronously
 	const doubleOfNum = derived(num, (storeValue) => {
 		return storeValue * 2;
 	});
 
-	// derive from multiple stores
+	// derive from multiple stores synchronously
 	const multiplication = derived([num, num2], ([$num1, $num2]) => {
 		return $num1 * $num2;
 	});
-
-	// get the derived value synchronously
 
 	// get the derived value asynchronously
 	const delayedNum = derived(
