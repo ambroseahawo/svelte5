@@ -1,5 +1,5 @@
 <script>
-	import Derived from "../components/scripts/derived.svelte";
+	import Tweened from "../components/scripts/tweened.svelte";
 </script>
 
-<Derived />
+<Tweened />
