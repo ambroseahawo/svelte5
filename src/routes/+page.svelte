@@ -1,5 +1,5 @@
 <script>
-	import Tweened from "../components/scripts/tweened.svelte";
+	import Tweened from "$lib/components/scripts/tweened.svelte";
 </script>
 
 <Tweened />
